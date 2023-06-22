@@ -82,6 +82,72 @@ main {
     margin-left: 20px;
 }
 
+/* Changed search-engine-optimization class to main/section element */
+main section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Commented out extraneous stylings below */
+/*
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+*/
+
+/* Changed search-engine-optimization class to section element */
+main section img {
+    max-height: 200px;
+}
+
+/* Commented out extraneous stylings below */
+/*
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+*/
+
+/* Removed search-engine-optimization class reference */
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Commented out extraneous stylings below */
+/*
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+*/
+
 /* Changed benefits class to aside section */
 aside {
     margin-right: 20px;
@@ -151,72 +217,6 @@ aside section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-*/
-
-/* Changed search-engine-optimization class to main/section element */
-main section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* Commented out extraneous stylings below */
-/*
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-*/
-
-/* Changed search-engine-optimization class to section element */
-main section img {
-    max-height: 200px;
-}
-
-/* Commented out extraneous stylings below */
-/*
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-*/
-
-/* Removed search-engine-optimization class reference */
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* Commented out extraneous stylings below */
-/*
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 */
 
