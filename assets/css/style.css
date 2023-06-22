@@ -94,11 +94,14 @@ aside {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* Changed benefit-lead class to aside/section element */
+aside section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Commented out extraneous stylings below */
+/*
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
@@ -108,12 +111,16 @@ aside {
     margin-bottom: 32px;
     color: #ffffff;
 }
+*/
 
-.benefit-lead h3 {
+/* Removed benefit-lead class reference */
+h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Commented out extraneous stylings below */
+/*
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -123,13 +130,17 @@ aside {
     margin-bottom: 10px;
     text-align: center;
 }
+*/
 
-.benefit-lead img {
+/* Replaced .benefit-lead class reference with aside/section/img element reference */
+aside section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Commented out extraneous stylings below */
+/*
 .benefit-brand img {
     display: block;
     margin: 10px auto;
@@ -141,9 +152,10 @@ aside {
     margin: 10px auto;
     max-width: 150px;
 }
+*/
 
-/* Changed search-engine-optimization class to section element */
-section {
+/* Changed search-engine-optimization class to main/section element */
+main section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -174,7 +186,7 @@ section {
 */
 
 /* Changed search-engine-optimization class to section element */
-section img {
+main section img {
     max-height: 200px;
 }
 
