@@ -8,23 +8,27 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+/* Changed class "header" to header element */
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+/* Removed extraneous header reference */
+h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+/* Removed extraneous header and h1 reference */
+.seo {
     color: #d9dcd6;
 }
 
-.header div {
+/* Changed div under header to nav element */
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +36,13 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+/* Removed extraneous div reference */
+ul {
     list-style-type: none;
 }
 
-.header div ul li {
+/* Removed extraneous div and ul reference */
+li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -69,13 +75,15 @@ p {
     margin-left: 25px;
 }
 
-.content {
+/* Changed content class to main element */
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+/* Changed benefits class to aside section */
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -86,11 +94,14 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* Changed benefit-lead class to aside/section element */
+aside section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Commented out extraneous stylings below */
+/*
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
@@ -100,12 +111,16 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
+*/
 
-.benefit-lead h3 {
+/* Removed benefit-lead class reference */
+h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Commented out extraneous stylings below */
+/*
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -115,13 +130,17 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
+*/
 
-.benefit-lead img {
+/* Replaced .benefit-lead class reference with aside/section/img element reference */
+aside section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Commented out extraneous stylings below */
+/*
 .benefit-brand img {
     display: block;
     margin: 10px auto;
@@ -133,8 +152,10 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+*/
 
-.search-engine-optimization {
+/* Changed search-engine-optimization class to main/section element */
+main section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,6 +164,8 @@ p {
     color: #ffffff;
 }
 
+/* Commented out extraneous stylings below */
+/*
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,11 +183,15 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+*/
 
-.search-engine-optimization img {
+/* Changed search-engine-optimization class to section element */
+main section img {
     max-height: 200px;
 }
 
+/* Commented out extraneous stylings below */
+/*
 .online-reputation-management img {
     max-height: 200px;
 }
@@ -172,12 +199,16 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
+*/
 
-.search-engine-optimization h2 {
+/* Removed search-engine-optimization class reference */
+h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Commented out extraneous stylings below */
+/*
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -187,14 +218,17 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+*/
 
-.footer {
+/* Changed footer class to footer element */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+/* Removed footer class reference and replaced h2 with h4 */
+h4 {
     font-size: 20px;
 }
