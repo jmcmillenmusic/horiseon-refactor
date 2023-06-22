@@ -82,7 +82,8 @@ main {
     margin-left: 20px;
 }
 
-.benefits {
+/* Changed benefits class to aside section */
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
