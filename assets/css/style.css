@@ -75,7 +75,8 @@ p {
     margin-left: 25px;
 }
 
-.content {
+/* Changed content class to main element */
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -140,7 +141,8 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization {
+/* Changed search-engine-optimization class to section element */
+section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -149,6 +151,8 @@ p {
     color: #ffffff;
 }
 
+/* Commented out extraneous stylings below */
+/*
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -166,11 +170,15 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+*/
 
-.search-engine-optimization img {
+/* Changed search-engine-optimization class to section element */
+section img {
     max-height: 200px;
 }
 
+/* Commented out extraneous stylings below */
+/*
 .online-reputation-management img {
     max-height: 200px;
 }
@@ -178,12 +186,16 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
+*/
 
-.search-engine-optimization h2 {
+/* Removed search-engine-optimization class reference */
+h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Commented out extraneous stylings below */
+/*
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -193,14 +205,17 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+*/
 
-.footer {
+/* Changed footer class to footer element */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+/* Removed footer class reference and replaced h2 with h4 */
+h4 {
     font-size: 20px;
 }
